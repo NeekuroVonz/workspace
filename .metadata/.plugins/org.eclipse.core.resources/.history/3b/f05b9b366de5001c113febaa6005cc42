@@ -1,0 +1,34 @@
+package com.theplayer.kits;
+
+import java.util.Scanner;
+import com.theplayer.kits.vo.LoginUser;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		boolean exit = false;
+		do {
+			System.out.println(" cmd > ");
+			String cmd = sc.nextLine();
+			if ("exit".equals(cmd)) {
+//				cmd.equalsIgnoreCase("exit");
+				exit = true;
+			}
+			if ("join".equals(cmd)) {
+				LoginUser user = join();
+			}
+			
+		} while( !exit );
+		
+		sc.close();
+	}
+
+	private static LoginUser join() {
+		LoginUser user = new LoginUser();
+		System.out.println(" ID : ");
+		return user;
+	}
+
+}

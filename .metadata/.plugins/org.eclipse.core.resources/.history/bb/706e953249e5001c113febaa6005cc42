@@ -1,0 +1,6 @@
+package com.theplayer.kits.vo;
+
+// Access Modifier
+public class LoginUser {
+
+}

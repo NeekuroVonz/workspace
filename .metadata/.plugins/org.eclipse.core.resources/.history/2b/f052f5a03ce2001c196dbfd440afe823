@@ -1,0 +1,32 @@
+package com.theplayer.kits;
+
+public class Operator {
+	public static void main(String[] args) {
+		ariths();
+		compare();
+	}
+
+	private static void compare() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	private static void ariths() {
+		int number = (int)Math.random();
+		
+//		// offset
+//		System.out.println( 10 + 5 );
+//		System.out.println( 10 - 5 );
+//		// group
+//		System.out.println( 10 * 5 );
+//		System.out.println( 10 / 5 );
+//		// limited
+//		System.out.println( 10 % 5 );
+//	
+//		int a = 5;
+//		int b = ++a; // --
+//		int c = a++;
+		
+	}
+	
+}

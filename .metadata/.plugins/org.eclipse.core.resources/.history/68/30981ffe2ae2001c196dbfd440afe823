@@ -1,0 +1,11 @@
+package com.theplayer.kits;
+
+public class Reference {
+	
+	public static void main(String[] args) {
+		// TODO: Point to address (ID)
+		new Reference(); // <-- constructor
+		// return object' id(address)
+		
+	}
+}

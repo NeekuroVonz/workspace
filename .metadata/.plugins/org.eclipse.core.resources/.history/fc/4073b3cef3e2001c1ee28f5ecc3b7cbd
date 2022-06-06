@@ -1,0 +1,36 @@
+package com.theplayer.kits;
+
+public class ArrayConsole {
+	
+	public static void main(String[] args) {
+		boolean[] flag = new boolean[10];
+		if (flag != null) {
+			flag[0] = true; // runtime error
+		}
+		
+	}
+	
+	public static void main2(String[] args) {
+		int[][] a2d = new int[3][];
+		// row 3, col 4
+		// change second array of every first array index
+		a2d[0] = new int[4];
+		a2d[1] = new int[100];
+		a2d[2] = new int[10];
+		
+	}
+	
+	
+	public static void main1(String[] args) {
+		// define Array 1D
+		int[] arName = new int[5];
+		int[] arName2 = new int[]{1,2,3,4,5};
+		
+		// use loop
+		//arName2[ 5 ] = 10;
+		for (int i = arName2.length - 1; i >= 0; i--) {
+			System.out.println(arName2[i]);
+		}
+	}
+
+}

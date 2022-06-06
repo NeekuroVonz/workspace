@@ -1,0 +1,11 @@
+package com.theplayer.kits.vo;
+
+// Access Modifier
+public
+(default)
+protected : family
+private
+
+public class LoginUser {
+
+}

@@ -1,0 +1,13 @@
+package com.theplayer.kits;
+
+public class StdInOut {
+	
+	public static void main(String[] args) {
+		// TODO: Trong A co B --> A.B
+		System.out.print(" main calls print ");
+		System.out.print("\n" + 190); //be string
+		System.out.println();
+		
+		System.in.read();s
+	}
+}

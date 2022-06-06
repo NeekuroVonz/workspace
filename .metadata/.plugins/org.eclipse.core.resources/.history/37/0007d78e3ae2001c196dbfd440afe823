@@ -1,0 +1,16 @@
+package com.theplayer.kits;
+
+public class Operator {
+	public static void main(String[] args) {
+		ariths();
+	}
+
+	private static void ariths() {
+		System.out.println( 10 + 5 );
+		System.out.println( 10 - 5 );
+		System.out.println( 10 * 5 );
+		System.out.println( 10 / 5 );
+		System.out.println( 10 % 5 );
+	}
+	
+}

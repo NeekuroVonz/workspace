@@ -1,0 +1,7 @@
+package com.theplayer.kits;
+
+public class Primitive {
+	public static void main(String[] args) {
+		
+	}
+}

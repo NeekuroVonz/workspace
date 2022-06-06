@@ -1,0 +1,48 @@
+package com.theplayer.kits.tutorial;
+
+import java.util.Scanner;
+
+public class Left {
+public static int ready() {
+		
+		int min = 0, max = 1000;
+		
+		int number = (int) ( Math.random() * 1000000);
+		number = number % (max + 1 - min);
+		number = number + min; 
+		System.out.println("Ready left!");
+		System.out.println("Number: " + number);
+		return number;
+		
+	}
+	
+	public static int call() {
+		int min = 0, max = 1000;
+		
+		int number = (int) ( Math.random() * 1000000);
+		number = number % (max + 1 - min);
+		number = number + min; 
+		
+		System.out.println("Guess number: " + number);
+		return number;
+	}
+	
+	
+	public static int resp(int call) {
+		
+		int rightNumb = ready();
+		int resp = 1;
+		
+		if (call != rightNumb) {
+			if (call < rightNumb) {
+				System.out.println("Up left!");
+			} else if (call > rightNumb) {
+				System.out.println("Down left!");
+			}
+		} else {
+			System.out.println("Correct left!");
+			resp = 0;
+		}
+		return resp;
+	}
+}

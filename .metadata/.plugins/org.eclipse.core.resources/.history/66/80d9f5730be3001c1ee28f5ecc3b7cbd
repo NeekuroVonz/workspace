@@ -1,0 +1,7 @@
+package com.theplayer.kits.tutorial;
+
+public class UpDown {
+	public static void main(String[] args) {
+		Right right = new Right();
+	}
+}

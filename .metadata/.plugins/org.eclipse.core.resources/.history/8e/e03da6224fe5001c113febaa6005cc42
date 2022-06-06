@@ -1,0 +1,15 @@
+package com.theplayer.kits.vo;
+
+// Access Modifier
+// public -> method : priorities
+// (default)
+// protected : family
+// private -> field : priorities
+
+public class LoginUser {
+	
+	String userId;
+	String userPw;
+	
+	
+}

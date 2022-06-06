@@ -1,0 +1,19 @@
+package com.theplayer.kits;
+
+public class Scope {
+	
+	private int InstVar; // instance variable
+	private static int ClassVar; // class variable
+	
+	public static void main(String[] args) {
+		// range to use
+		Scope obj1 = new Scope();
+		Scope obj2 = new Scope();
+		System.out.println(obj1.ClassVar);
+		System.out.println(obj2.ClassVar);
+		Scope.ClassVar = 10;
+		System.out.println(obj1.ClassVar);
+		System.out.println(obj2.ClassVar);
+		
+	}
+}

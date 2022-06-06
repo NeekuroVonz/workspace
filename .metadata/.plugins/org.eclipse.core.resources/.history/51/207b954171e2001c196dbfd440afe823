@@ -1,0 +1,84 @@
+package com.theplayer.kits;
+
+import java.util.Random;
+
+public class Quiz {
+	public static void main(String[] args) {
+		//quiz01();
+		quiz02(6);
+		//quiz03();
+	}
+
+	private static void quiz03() {
+		Random random = new Random();
+		
+		int min = 1, max = 6;
+		
+		for (int i = 1; i <= 5; i++) {
+			
+			int value = random.nextInt(((max - min) + 1) + min);
+			int val = value;
+			
+			
+		}
+	}
+	
+	
+	
+	private static void quiz02(int col) {
+		
+		int p = 2;
+		
+		while (p < 10) {
+					
+			for (int i = 1; i <= 10; i++) {
+				for (int j = 0; j < col; j++) {
+					System.out.print((p+j) + " x " + i + " = " + ((p+j)*i) + "\t");
+				}
+				System.out.println();
+			}
+			
+			p = p + col;
+			System.out.println();
+
+		}
+	}
+		
+		
+		
+//		for (a = 1; a <= 10; a++) {
+//			for (line1 = 2; line1 <= col + 1; line1++) {	
+//				System.out.print(line1 + " x " + a + " = " + (line1*a) + "\t");
+//			}
+//			System.out.println();
+//		}
+//		
+//		if (col == 8) {
+//			return;
+//		} else {
+//			for (a = 1; a <= 10; a++) {
+//				for (int line2 = line1; line2 <= 9; line2++) {	
+//					System.out.print(line2 + " x " + a + " = " + (line2*a) + "\t");
+//				}
+//				System.out.println();
+//			}
+//		}
+	}
+	
+
+	private static void quiz01() {
+		// TODO 1 ~ 27 +1 int -> print
+
+		for (int i = 1; i <= 27; i++) {
+			
+			if (i % 5 == 0) {
+				System.out.println(i);
+			} else if (i == 27) {
+				System.out.print(i);
+			} else {
+				System.out.print(i + " ");
+			}
+			
+		}
+	}
+}

@@ -1,0 +1,9 @@
+package com.theplayer.kits;
+
+public class ArrayConsole {
+	
+	public static void main(String[] args) {
+		
+	}
+
+}

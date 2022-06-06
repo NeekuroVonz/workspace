@@ -1,0 +1,11 @@
+package com.theplayer.kits;
+
+public class Scope {
+	
+	int fnum; // field
+	
+	public static void main(String[] args) {
+		// range to use
+		
+	}
+}

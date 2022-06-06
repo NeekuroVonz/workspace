@@ -1,0 +1,14 @@
+
+class Demo02 {
+
+	// returnType methodName ( parameters ) { process }
+	// method 
+	//  define : returnType methodName ( parameters );
+	//  implement : make { body }
+	
+	void todo();
+	void some() {
+		
+	}
+	
+}

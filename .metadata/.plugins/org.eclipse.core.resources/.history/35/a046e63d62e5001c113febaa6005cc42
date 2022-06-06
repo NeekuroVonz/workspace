@@ -1,0 +1,19 @@
+package com.theplayer.kits;
+
+public class Scope {
+	
+	private int fnum; // field -> instance variable
+	
+	private static int ClassVar; // static field -> class variable
+	
+	public void todo() {
+		fnum = 100;
+		ClassVar = 10;
+	}
+	
+	public static void main(String[] args) {
+		// range to use
+		fnum = 10;
+		ClassVar = 10;
+	}
+}

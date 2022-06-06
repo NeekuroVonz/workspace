@@ -1,0 +1,9 @@
+package com.theplayer.kits;
+
+public class Scope {
+	
+	public static void main(String[] args) {
+		// range to use
+		
+	}
+}

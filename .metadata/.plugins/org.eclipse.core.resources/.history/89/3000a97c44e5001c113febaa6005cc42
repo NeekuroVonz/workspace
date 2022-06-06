@@ -1,0 +1,12 @@
+
+class Demo03 
+{
+	// member of class
+	
+	// member variables : fields
+	int fields_num;
+	
+	// member functions : methods
+	
+	
+}

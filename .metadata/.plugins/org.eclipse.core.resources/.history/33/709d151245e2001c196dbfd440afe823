@@ -1,0 +1,8 @@
+package com.theplayer.kits;
+
+public class Controls {
+	
+	public static void main(String[] args) {
+		
+	}
+}

@@ -1,0 +1,12 @@
+package com.theplayer.kits;
+
+public class ArrayConsole {
+	
+	public static void main(String[] args) {
+		// define Array 1D
+		int[] arName = new int[5];
+		int[] arName2 = new int[]{1,2,3,4,5};
+		
+	}
+
+}

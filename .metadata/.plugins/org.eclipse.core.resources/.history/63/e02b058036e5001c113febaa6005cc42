@@ -1,0 +1,8 @@
+
+expression : operator , value - 1 line
+block ( statement ) - lines
+function - blocks : method
+
+public class Demo01 {
+
+}

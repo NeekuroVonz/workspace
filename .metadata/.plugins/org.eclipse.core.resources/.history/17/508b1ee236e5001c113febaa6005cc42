@@ -1,0 +1,10 @@
+
+//expression : operator , value - 1 line
+//block ( statement ) - lines
+//function - blocks : method
+
+public class Demo01 {
+
+	int v = 100 + 3; // define expression for variable
+	System.out.println(v);
+}

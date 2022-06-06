@@ -1,0 +1,22 @@
+
+class Demo02 {
+
+	// returnType methodName ( parameters ) { process }
+	// method 
+	//  define : returnType methodName ( parameters );
+	//  implement : make { body }
+	
+	// not implement yet
+	abstract void todo();
+	
+	// need to called
+	void some() {
+		// body
+	}
+	
+	int getValue() {
+		// process ....
+		return 0;
+	}
+	
+}

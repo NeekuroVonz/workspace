@@ -1,0 +1,16 @@
+package com.theplayer.kits;
+/**
+ *	Data Type
+ *		Primitive literal value
+ *		Reference point to address Object/Instance
+ *			.dot		
+ *
+ *	@author bitcamp
+ *	
+ */
+
+public class Primitive {
+	public static void main(String[] args) {
+		
+	}
+}

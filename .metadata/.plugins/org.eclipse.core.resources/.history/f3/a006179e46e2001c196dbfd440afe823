@@ -1,0 +1,39 @@
+package com.theplayer.kits;
+
+// control statements
+public class Controls {
+	
+	public static void main(String[] args) {
+		int value = 10;
+		switch ( value ) {
+		case 1:
+			System.out.println(" value is 1 ");
+		case 3:
+			System.out.println(" value is 3 ");
+		case 7:
+			System.out.println(" value is 7 ");
+		case 10:
+			System.out.println(" value is 10 ");
+		}
+	}
+
+	private static void ifsmt() {
+		boolean expression = true;
+		if ( expression ) {
+			System.out.println("TRUE");
+			if ( expression ) {
+				System.out.println("TRUE");
+			} else {
+				System.out.println("FALSE");
+			}
+		} else {
+			System.out.println("FALSE");
+			if ( expression ) {
+				System.out.println("TRUE");
+			} else {
+				System.out.println("FALSE");
+			}
+		}
+	}
+
+}

@@ -1,0 +1,32 @@
+package com.theplayer.kits;
+/**
+ *	Data Type
+ *		Primitive literal value
+ *			lowercase
+ *		Reference point to address Object/Instance
+ *			.dot
+ *			uppercase	
+ *
+ *	@author bitcamp
+ *	
+ */
+
+public class Primitive {
+	public static void main(String[] args) {
+		defaultTypes();
+		
+	}
+
+	private static void defaultTypes() {
+		// TODO Auto-generated method stub
+		boolean bool; // true false : contional exp
+		
+		// integer
+		byte	ascii; // 1 byte : unsigned ~ 255
+		short	s; // 2 byte
+		int		
+		long
+		char	unicode; // UTF-16 2 byte
+		
+	}
+}

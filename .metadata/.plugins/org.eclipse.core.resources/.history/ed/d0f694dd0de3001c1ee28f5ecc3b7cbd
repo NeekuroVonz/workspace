@@ -1,0 +1,27 @@
+package com.theplayer.kits.tutorial;
+
+public class UpDown {
+	public static void main(String[] args) {
+		Left left = new Left();
+		Right right = new Right();
+		
+		left.ready(); // private number (random)
+		right.ready();
+		
+//		boolean isNotCorrected = true;
+//		do {
+//			int call = left.call(); // so ben doi thu doan
+//			int resp = right.resp(call); //dem call >< private number ben phai ? 0 (true), 1(false) 
+//			if( resp == 0) {
+//				isNotCorrected = false;
+//			}
+//			
+//			//Swap
+//			Left tmp = left;
+//			left = right;
+//			right = left;
+//			
+//			
+//		}while( isNotCorrected );
+	}
+}
